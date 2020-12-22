@@ -1,11 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const { token, prefix } = require('./config.json');
 
 client.once('ready', () => {
 	console.log('Ready!')
 });
 
-client.login("Your-token-goes-here");
+client.login(token);
 {
 
 	}
@@ -70,7 +71,6 @@ client.on('message', message => {
 	})
 	 
 	client.on("message", async(message) => {
-		const prefix = '$';
 		const args = message.content.slice(prefix.length).trim().split(/ +/g)
 		const command = args.shift().toLowerCase();
 	 
