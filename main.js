@@ -5,7 +5,7 @@ client.once('ready', () => {
 	console.log('Ready!')
 });
 
-client.login("Nzg1ODc4NDQwOTA5NjAyODc2.X8-QVQ.ypR1acHlLKLwdl64eHCaQJ0nC_Y");
+client.login("Your-token-goes-here");
 {
 
 	}
