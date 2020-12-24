@@ -1,5 +1,5 @@
 ## Cheezey
-This a general bot by [Aryan2906](https://github.com/Aryan2906)!
+This an awesome music bot by [Aryan2906](https://github.com/Aryan2906)!
 
 ## Getting Started
 If you want to use this code for your own bot, follow these steps - 
